@@ -4,51 +4,51 @@ import ProductCard from "@/components/ProductCard";
 const products = [
   {
     id: "1",
-    name: "Минималистичное пальто",
-    price: 25000,
+    name: "DRKSHDW Ramones Sneakers",
+    price: 45000,
     image:
-      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=400&h=600&fit=crop",
-    sizes: ["XS", "S", "M", "L", "XL"],
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=600&fit=crop",
+    sizes: ["36", "37", "38", "39", "40", "41"],
   },
   {
     id: "2",
-    name: "Классический тренч",
-    price: 18000,
+    name: "Асимметричное пальто с драпировкой",
+    price: 85000,
     image:
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=600&fit=crop",
-    sizes: ["S", "M", "L", "XL"],
-  },
-  {
-    id: "3",
-    name: "Дизайнерский блейзер",
-    price: 15000,
-    image:
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=600&fit=crop",
     sizes: ["XS", "S", "M", "L"],
   },
   {
-    id: "4",
-    name: "Элегантное платье",
-    price: 12000,
+    id: "3",
+    name: "Объемное худи с удлиненными рукавами",
+    price: 55000,
     image:
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=600&fit=crop",
-    sizes: ["XS", "S", "M", "L", "XL"],
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=600&fit=crop",
+    sizes: ["S", "M", "L", "XL"],
+  },
+  {
+    id: "4",
+    name: "Кожаная куртка с молниями",
+    price: 95000,
+    image:
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=600&fit=crop",
+    sizes: ["XS", "S", "M", "L"],
   },
   {
     id: "5",
-    name: "Авторская рубашка",
-    price: 8000,
+    name: "Брюки с заниженной мотней",
+    price: 38000,
     image:
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=600&fit=crop",
     sizes: ["S", "M", "L", "XL"],
   },
   {
     id: "6",
-    name: "Стильные брюки",
-    price: 9500,
+    name: "Платье с драпировками и асимметрией",
+    price: 65000,
     image:
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=600&fit=crop",
-    sizes: ["XS", "S", "M", "L", "XL"],
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=600&fit=crop",
+    sizes: ["XS", "S", "M", "L"],
   },
 ];
 
@@ -60,11 +60,11 @@ const Index = () => {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-black mb-4 font-montserrat">
-            Дизайнерская коллекция
+            Авангардная коллекция
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Минималистичные решения для современного гардероба. Каждая вещь
-            создана с вниманием к деталям и качеству.
+            Готическая эстетика и драматичные силуэты. Асимметричные кройки и
+            минималистичная черно-белая палитра для смелых образов.
           </p>
         </div>
 
