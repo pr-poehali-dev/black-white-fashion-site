@@ -10,9 +10,14 @@ const Header = () => {
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center">
+          <Link to="/" className="flex items-center space-x-3">
+            <img
+              src="https://cdn.poehali.dev/files/e3df63a0-8c9f-49a1-969d-6ad71dbd8818.jpg"
+              alt="Scarlato"
+              className="h-10 w-10 object-cover rounded-full"
+            />
             <h1 className="text-2xl font-bold text-black font-montserrat">
-              NOIR
+              Scarlato
             </h1>
           </Link>
 

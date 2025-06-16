@@ -56,7 +56,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-
+      <title>Scarlato - Премиальная женская одежда</title>
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-black mb-4 font-montserrat">
